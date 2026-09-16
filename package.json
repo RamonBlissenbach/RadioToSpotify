@@ -1,0 +1,19 @@
+{
+  "name": "radiotospotify",
+  "version": "1.0.0",
+  "description": "Polls the 1Live radio playlist every minute and automatically adds the tracks to a Spotify playlist. Proof of concept.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@spotify/web-api-ts-sdk": "^1.2.0",
+    "express": "^5.2.1",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.1-security"
+  }
+}
