@@ -4,6 +4,8 @@
   "description": "Polls the 1Live radio playlist every minute and automatically adds the tracks to a Spotify playlist. Proof of concept.",
   "main": "app.js",
   "scripts": {
+    "start": "node --env-file=.env ./app.js",
+    "auth": "node --env-file=.env ./auth.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
